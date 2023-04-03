@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Creating a Form by using HTML Form Tag.</title>
+</head>
+
+<body p style="background-image: url('bgimage.jpg');"><!--This is a Background Page set code from web page-->
+
+ 	<form style="font-size: 17px;" action="form_submit.html" method="post" target="_blank" autocomplete="off" enctype="novalidate">
+
+		<fieldset>
+			<legend style="color:darkslateblue;  font-size: 25px ;text-decoration-line: underline;" >Registration From For Learning HTML Form Tag</legend>
+			<label>First Name: </label><input type="text" name="First Name"><br><br>
+			<label>Last Name:  </label><input type="text" name="Last Name"><br><br>
+			<label>DOB: </label>
+			<input type="datetime-local" name="birthdate"><br><br>
+			<label>Gender:  </label>
+			<input type="radio" name="gender" value="Male">Male
+			<input type="radio" name="gender" value="Female">Female
+			<input type="radio" name="gender" value="Transgender">Transgender<br><br>
+			<label>Mobile No:  </label><input type="tel" name="Contact Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+			<!--This is a Sports checkbox code-->
+			<label>Sports:</label><input type="checkbox" name="sports" value="cricket">Cricket
+			<input type="checkbox" name="sports" value="football" >Football
+			<input type="checkbox" name="sports" value="vollyball" >Vollyball
+			<input type="checkbox" name="sports" value="hokkie" >Hokkie<br><br>
+
+			<label>User Name:  </label><input type="text" name=" UserName"><br><br>
+
+			<label>Password:  </label><input type="Password" name="Password"><br><br>
+			<label>Email:  </label><input type="email" name="Email"><br><br>
+		
+		<label>Address :</label><textarea></textarea><br><br>
+
+		<input type="submit" value="Submit"><br><br>
+		<label>Color Box : </label>
+		<input type="color" name="color"><br><br>
+
+		<iframe style="font-size: 19px" width="900px" height="1000px" src="tablepractice.html"></iframe>
+		</fieldset>
+		
+	</form>
+
+</body>
+
+</html>
